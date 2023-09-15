@@ -1,2 +1,5 @@
 venv
 candlestick-patterns
+notebooks/patterns
+notebooks/__init__.py
+notebooks/candlestick.py
