@@ -31,7 +31,7 @@ pip install -r requirements.txt
 
 `data/separated_stocks` - contains all the stocks in the main csv but separated into their own csv files
 
-`data/cleaned_stocks` - contains the csv files in a format which can directly be fed into the `notebooks/check_whether_candlestick_exists.ipynb`
+`data/cleaned_stocks` - contains the csv files in a format which can directly be fed into the `notebooks/add_candlestick_patterns.ipynb.ipynb`
 
 `data/with_patterns` - contains the data with a few patterns
 
