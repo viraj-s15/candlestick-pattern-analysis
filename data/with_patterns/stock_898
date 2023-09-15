@@ -1,0 +1,4 @@
+time,Close,Open,High,Low,Doji,DarkCloud,Bull_Marubozu,Bear_Marubouzu,Dragonfly,BullEngulf,BearEngulf,Gravestone,Hammer,BullHarami,BearHarami,LongLeg,Inv_Hammer
+2023-08-22 00:00:00,1810.15,1820.0,1845.05,1791.0,False,False,False,False,False,False,False,False,False,False,False,False,False
+2023-08-23 00:00:00,1812.75,1834.0,1834.0,1790.05,False,False,False,False,False,False,False,False,True,False,False,False,False
+2023-08-21 00:00:00,1791.7,1811.0,1823.95,1740.0,False,False,False,False,False,False,False,False,True,False,False,False,False
