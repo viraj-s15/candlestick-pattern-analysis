@@ -1,0 +1,15 @@
+{
+    "Doji": "both",
+    "DarkCloud": "upward",
+    "Bull_Marubozu": "upward",
+    "Bear_Marubouzu": "downward",
+    "Dragonfly": "upward",
+    "BullEngulf": "upward",
+    "BearEngulf": "downward",
+    "Gravestone": "reversal",
+    "Hammer": "upward",
+    "BullHarami": "upward",
+    "BearHarami": "downward",
+    "LongLeg": "both",
+    "Inv_Hammer": "downward"
+}

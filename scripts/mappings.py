@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+import json
 
 df = pd.read_csv("../data/with_patterns/stock_0.csv")
 columns = df.columns
@@ -10,4 +11,5 @@ sentiment = ["both","upward","upward","downward","upward","upward","downward","r
 
 mapping = dict(zip(columns,sentiment))
 
-print(mapping)
+with open("../data/mapping.json", "w") as outfile:
+    json.dump(mapping, outfile)
