@@ -10,7 +10,7 @@ import os
 _, _, files = next(os.walk("../data/with_patterns/"))
 file_count = len(files)
 print(f"The total number of CSV files is {file_count}")
-# os.mkdir('../data/no_nan/')
+os.mkdir('../data/no_nan/')
 
 count = 0
 pbar = tqdm(total=1081)
