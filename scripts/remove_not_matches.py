@@ -10,7 +10,7 @@ import os
 _, _, files = next(os.walk("../data/with_patterns/"))
 file_count = len(files)
 print(f"The total number of CSV files is {file_count}")
-os.mkdir('../data/no_nan/')
+# os.mkdir('../data/no_nan/')
 
 count = 0
 pbar = tqdm(total=1081)
@@ -32,5 +32,7 @@ while count < 1081:
     df_new.iloc[:,5:] = remove_nan
     df_new = df_new.dropna(subset=cols)
     df_new.reset_index()
+    df_new['time']= df_new['time'].str.replace(' 00:00:00','')
+    df_new = df_new.sort_values(by="time")
     df_new.to_csv(f'../data/no_nan/stock_{count}.csv',index=False)
     count += 1
