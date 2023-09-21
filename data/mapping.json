@@ -1,15 +1,67 @@
 {
-    "Doji": "both",
-    "DarkCloud": "upward",
-    "Bull_Marubozu": "upward",
-    "Bear_Marubouzu": "downward",
-    "Dragonfly": "upward",
-    "BullEngulf": "upward",
-    "BearEngulf": "downward",
-    "Gravestone": "reversal",
-    "Hammer": "upward",
-    "BullHarami": "upward",
-    "BearHarami": "downward",
-    "LongLeg": "both",
-    "Inv_Hammer": "downward"
+    {
+        "name": "Doji",
+        "trend": "both",
+        "reliability": "low"
+    },
+    {
+        "name": "DarkCloud",
+        "trend": "upward",
+        "reliability": "medium"
+    },
+    {
+        "name": "Bull_Marubozu",
+        "trend": "upward",
+        "reliability": "medium"
+    },
+    {
+        "name": "Bear_Marubouzu",
+        "trend": "downward",
+        "reliability": "medium"
+    },
+    {
+        "name": "Dragonfly",
+        "trend": "upward",
+        "reliability": "medium"
+    },
+    {
+        "name": "BullEngulf",
+        "trend": "upward",
+        "reliability": "medium"
+    },
+    {
+        "name": "BearEngulf",
+        "trend": "downward",
+        "reliability": "medium"
+    },
+    {
+        "name": "Gravestone",
+        "trend": "reversal",
+        "reliability": "low"
+    },
+    {
+        "name": "Hammer",
+        "trend": "upward",
+        "reliability": "low"
+    },
+    {
+        "name": "BullHarami",
+        "trend": "upward",
+        "reliability": "low"
+    },
+    {
+        "name": "BearHarami",
+        "trend": "downward",
+        "reliability": "medium"
+    },
+    {
+        "name": "LongLeg",
+        "trend": "both",
+        "reliability": "low"
+    },
+    {
+        "name": "Inv_hammer",
+        "trend": "downward",
+        "reliability": "low"
+    }
 }
