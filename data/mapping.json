@@ -1,4 +1,4 @@
-{
+[
     {
         "name": "Doji",
         "trend": "both",
@@ -64,4 +64,4 @@
         "trend": "downward",
         "reliability": "low"
     }
-}
+]
